@@ -1,0 +1,392 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  flex-wrap: warp;
+  justify-content: center;
+  z-index: 100;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-title {
+  width: 100%;
+  display: flex;
+  flex-wrap: warp;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 150px;
+}
+
+.header-inline > ol {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.header-inline,
+ol,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+li a:hover {
+  text-decoration: none;
+}
+
+.header-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.header-icon a {
+  color: black;
+  font-size: large;
+}
+
+.main {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.model-title h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.model-text > p {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  font-size: smaller;
+  color: lightslategray;
+}
+.model-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.model-list-avante {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.model-list-granger {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 50px;
+  margin-right: 40px;
+  padding-bottom: 165px;
+}
+.model-list-granger > p {
+  margin-top: 4px;
+}
+.model-list-title {
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.model-list-title-text {
+  display: flex;
+  flex-wrap: warp;
+  justify-content: space-between;
+  margin-right: 60px;
+}
+.model-list-text {
+  font-size: x-large;
+  font-style: unset;
+  margin-bottom: 100px;
+}
+.model-list-palisade {
+  padding-right: 50px;
+  margin-top: 50px;
+}
+
+.intro {
+  text-align: center;
+}
+.intro img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-menu {
+  position: fixed;
+  right: 20px;
+  top: 250px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+.right-menu div {
+  margin-bottom: 15px;
+}
+.right-menu a {
+  display: contents;
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+
+.bottom-menu {
+  width: 100%;
+  background-color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-menu div {
+  text-align: center;
+  margin: 0 20px;
+}
+.bottom-menu a {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+.bottom-menu i {
+  display: inline-block;
+  font-size: x-large;
+  margin-bottom: 5px;
+}
+
+.bottom-right {
+  position: fixed;
+  right: 30px;
+  bottom: 100px;
+  background-color: #0060ae;
+  color: white;
+  padding: 20px;
+  border-radius: 100px;
+  font-size: large;
+}
+
+.last {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-wrap-common {
+  padding-top: 140px;
+  text-align: center;
+}
+.title {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: -0.4px;
+}
+
+.tit-tail {
+  margin: 30px 0 0;
+  font-size: 16px;
+  letter-spacing: -0.24px;
+  color: #666;
+  line-height: 34px;
+}
+.section-body {
+  max-width: 1180px;
+  margin: 60px auto 0;
+  padding: 0 30px;
+}
+.electric-wrap {
+  display: flex;
+  gap: 32px;
+  margin-top: 50px;
+}
+.electric-car {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+.section-img {
+  background-image: url("https://www.hyundai.com/static/images/main_hi_ev.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 760px;
+  height: 360px;
+}
+.electric-car-head {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.electric-car-head > .tit {
+  color: white;
+  text-align: left;
+  padding-top: 20px;
+}
+.electric-car-head > .desc {
+  text-align: left;
+  color: white;
+  padding-top: 20px;
+}
+.electric-car-head p,
+.btn-more-red {
+  color: white;
+  text-align: left;
+  padding-top: 20px;
+}
+.electric-car-head > p > a {
+  color: white;
+}
+.electric-car-info {
+  background-color: antiquewhite;
+  width: 100%;
+}
+.electric-car-info .tit {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.electric-car-info > .desc {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.btn-more {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-more-party {
+  display: inline;
+  float: left;
+  margin-top: 20px;
+}
+.btn-more-blue {
+  color: #002c5f;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.electric-car-icon {
+  display: block;
+  top: -50px;
+  background: url("https://www.hyundai.com/static/images/main_hi_ev_icon.png");
+  float: right;
+  background-size: cover;
+  width: 200px;
+  height: 100px;
+}
+.electric-box {
+  background-color: rgb(220, 221, 221);
+
+  padding: 40px 20px;
+  width: 100%;
+  height: 100%;
+}
+.vehich {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 37px;
+  font-size: 30px;
+
+  line-height: 37px;
+}
+.electric-img {
+  background-image: url("https://www.hyundai.com/contents/repn-car/side-45/ioniq6-n-25lc-45side.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 150px;
+}
+.info {
+  text-align: left;
+  padding-top: 10px;
+}
+.info-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.info-wrap > strong {
+  display: block;
+  width: 40%;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+}
+.info-wrap > span {
+  display: block;
+  width: 60%;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #666;
+}
+.btn-wrap {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #ccc;
+}
+.btn {
+  text-align: center;
+  display: inline-block;
+}
+.btn > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  border: 1px;
+  background: #002c5f;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.el-carousel__indicator-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.el-carousel__indicator-li {
+  padding: 0 4px;
+  margin-right: 4px;
+}
+.el-carousel_button {
+  background-color: #007fa8;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  border: #007fa8;
+  color: transparent;
+  opacity: 1;
+  font-size: 0;
+  overflow: hidden;
+}

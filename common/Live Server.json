@@ -1,0 +1,18 @@
+{
+  "workbench.colorTheme": "Default Light Modern",
+  "git.autofetch": true,
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.host": "192.168.0.66",
+  "liveServer.settings.proxy": {},
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.port": 80,
+  "liveServer.settings.root": "/",
+  "sqldeveloper.sqlHistory.historyLimit": 500,
+  "sqldeveloper.telemetry.enabled": true,
+  "liveServer.settings.ChromeDebuggingAttachment": false
+}

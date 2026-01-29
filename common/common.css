@@ -1,0 +1,175 @@
+:root {
+  /* Pink & Rose */
+  --pastel-lavenderblush: #fff0f5;
+  --pastel-mistyrose: #ffe4e1;
+  --pastel-pink: #ffc0cb;
+  --pastel-lightpink: #ffb6c1;
+  --pastel-thistle: #d8bfd8;
+  --pastel-plum: #dda0dd;
+
+  --rose-rosewater: #f7cac9;
+  --rose-blushmist: #ffe8ef;
+  --rose-petal: #ffd7e2;
+  --rose-babypink: #ffc9da;
+  --rose-cottoncandy: #ffb7ce;
+  --rose-peony: #ffe4ec;
+  --rose-cherryblossom: #fad1e6;
+  --rose-tearose: #f4c2c2;
+
+  /* Nude / Dusty / Mauve */
+  --rose-cameo: #efbbcc;
+  --rose-antique: #d9a0a6;
+  --rose-old: #c08081;
+  --rose-dusty: #c48189;
+  --rose-desert: #b56576;
+  --rose-mauvetaupe: #915f6d;
+  --rose-heather: #c8a2c8;
+  --rose-rosybrown: #bc8f8f;
+
+  /* Vivid / Bright (Rose) */
+  --rose-hotpink: #ff69b4;
+  --rose-deeppink: #ff1493;
+  --rose-razzmatazz: #ff1f8a;
+  --rose-material: #e91e63;
+  --rose-amaranth: #e52b50;
+  --rose-flamingo: #ff4d6d;
+  --rose-watermelon: #ff6f91;
+  --rose-fuchsia: #ff00ff;
+
+  /* Deep / Wine / Berry */
+  --rose-raspberry: #c2185b;
+  --rose-claret: #9d174d;
+  --rose-carmine: #960018;
+  --rose-garnet: #a4133c;
+  --rose-burgundy: #800020;
+  --rose-merlot: #721329;
+  --rose-maroon: #800000;
+  --rose-mulberry: #c54b8c;
+
+  /* Peach & Orange */
+  --pastel-papayawhip: #ffefd5;
+  --pastel-peachpuff: #ffdab9;
+  --pastel-moccasin: #ffe4b5;
+  --pastel-navajowhite: #ffdead;
+  --pastel-bisque: #ffe4c4;
+  --pastel-blanchedalmond: #ffebcd;
+  --pastel-antiquewhite: #faebd7;
+
+  /* Cream & Yellow */
+  --pastel-lemonchiffon: #fffacd;
+  --pastel-lightgoldenrodyellow: #fafad2;
+  --pastel-lightyellow: #ffffe0;
+  --pastel-cornsilk: #fff8dc;
+  --pastel-ivory: #fffff0;
+  --pastel-beige: #f5f5dc;
+  --pastel-wheat: #f5deb3;
+  --pastel-khaki: #f0e68c;
+  --pastel-oldlace: #fdf5e6;
+  --pastel-floralwhite: #fffaf0;
+
+  /* Pastel / Soft (Mint & Green 확장) */
+  /* 중복 제거됨: --mint-honeydew, --mint-mintcream (아래 pastel-*을 사용) */
+  --mint-teagreen: #d0f0c0;
+  --mint-celadon: #ace1af;
+  --mint-magic: #aaf0d1;
+  --mint-mintgreen: #98ff98;
+  --mint-spearmint: #c8f7e6;
+  --mint-icemint: #e6fff7;
+
+  /* Fresh / Lime */
+  --mint-lime: #00ff00;
+  --mint-chartreuse: #7fff00;
+  --mint-lawngreen: #7cfc00;
+  --mint-limegreen: #32cd32;
+  --mint-spring: #00ff7f;
+  --mint-mspring: #00fa9a;
+  --mint-screamin: #66ff66;
+  --mint-electriclime: #ccff00;
+
+  /* Teal / Turquoise */
+  --mint-aquamarine: #7fffd4;
+  --mint-turquoise: #40e0d0;
+  --mint-maqua: #66cdaa;
+  --mint-mturquoise: #48d1cc;
+  --mint-lightseagreen: #20b2aa;
+  --mint-caribbean: #00cc99;
+  --mint-tiffany: #81d8d0;
+  --mint-verdigris: #43b3ae;
+
+  /* Sage / Olive / Moss */
+  --mint-pistachio: #93c572;
+  --mint-asparagus: #87a96b;
+  --mint-moss: #8a9a5b;
+  --mint-sage: #9caf88;
+  --mint-artichoke: #8f9779;
+  --mint-laurel: #a9ba9d;
+  --mint-olivedrab: #6b8e23;
+  --mint-darkolive: #556b2f;
+
+  /* Emerald / Forest / Jade */
+  --mint-emerald: #50c878;
+  --mint-jade: #00a86b;
+  --mint-malachite: #0bda51;
+  --mint-shamrock: #009e60;
+  --mint-kelly: #4cbb17;
+  --mint-seagreen: #2e8b57;
+  --mint-pine: #01796f;
+  --mint-brg: #004225;
+
+  /* Mint & Green (CSS 키워드 파스텔) */
+  --pastel-honeydew: #f0fff0;
+  --pastel-mintcream: #f5fffa;
+  --pastel-palegreen: #98fb98;
+  --pastel-lightgreen: #90ee90;
+
+  /* Mint Blue & Sky */
+  --pastel-aliceblue: #f0f8ff;
+  --pastel-azure: #f0ffff;
+  --pastel-lightcyan: #e0ffff;
+  --pastel-powderblue: #b0e0e6;
+  --pastel-lightblue: #add8e6;
+  --pastel-paleturquoise: #afeeee;
+  --pastel-lightsteelblue: #b0c4de;
+
+  /* Lilac & Purple */
+  --pastel-lavender: #e6e6fa;
+
+  /* Neutrals */
+  --pastel-snow: #fffafa;
+  --pastel-seashell: #fff5ee;
+  --pastel-linen: #faf0e6;
+  --pastel-ghostwhite: #f8f8ff;
+  --pastel-whitesmoke: #f5f5f5;
+  --pastel-gainsboro: #dcdcdc;
+  --pastel-lightgray: #d3d3d3;
+
+  /* Jewel-deep */
+  --jewel-ruby: crimson;
+  --jewel-garnet: maroon;
+  --jewel-amethyst: rebeccapurple;
+  --jewel-indigo: indigo;
+  --jewel-sapphire: navy;
+  --jewel-royal: royalblue;
+  --jewel-emerald: forestgreen;
+  --jewel-teal: teal;
+  --jewel-topaz: darkgoldenrod;
+  --jewel-amber: darkorange;
+  --jewel-copper: chocolate;
+  --jewel-bronze: saddlebrown;
+  --jewel-onyx: black;
+
+  /* Vivid-brights (중복 값은 기존 토큰 참조) */
+  --Vivid-brights-primary: var(--jewel-royal); /* royalblue */
+  --Vivid-brights-accent: var(--rose-fuchsia); /* #ff00ff */
+  --Vivid-brights-success: var(--mint-lime); /* #00ff00 */
+  --Vivid-brights-warning: orange;
+  --Vivid-brights-danger: var(--jewel-ruby); /* crimson */
+
+  /*즐겨찾기 세트1*/
+  --jimin1: lightsteelblue;
+  --jimin2: #e6fff7;
+  --jimin3: powderblue;
+  --jimin4: #ace1af;
+  --jimin5: lavender;
+  --jimin6: lightseagreen;
+}
